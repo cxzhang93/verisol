@@ -1,0 +1,21 @@
+Single threaded program detected
+Verifying program while tracking: {assertsPassed}
+Program has a potential bug: False bug
+Verifying program while tracking: {assertsPassed, M_Ref_int, balances_BasicToken}
+Program has a potential bug: False bug
+Verifying program while tracking: {assertsPassed, M_Ref_int, balances_BasicToken, Alloc, allowed_StandardToken, M_Ref_Ref}
+Program has a potential bug: False bug
+Verifying program while tracking: {assertsPassed, M_Ref_int, balances_BasicToken, Alloc, allowed_StandardToken, M_Ref_Ref, M_int_Ref, totalSupply_ERC20Basic}
+Program has no bugs
+Reached recursion bound of 4
+
+Boogie verification time: 1.90 s
+Time spent reading-writing programs: 0.47 s
+
+Time spent checking a program (4): 1.18 s
+Time spent checking a path (9): 1.57 s
+
+Number of procedures inlined: 202
+Number of variables tracked: 8
+Total Time: 2.9856828 s
+Total User CPU time: 0.34375 s
